@@ -1,0 +1,15 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 300px;
+  background: #fff;
+  margin: 1rem;
+
+  * {
+    width: 100px;
+    height: 100px;
+  }
+}
+h1 {
+  margin: 1rem;
+}
